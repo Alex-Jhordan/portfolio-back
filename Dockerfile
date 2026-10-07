@@ -1,0 +1,1 @@
+FROM soulteary/sqlite-wordpress

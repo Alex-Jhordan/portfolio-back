@@ -1,0 +1,10 @@
+services:
+  wordpress:
+    build:
+      context: .
+    image: sqlite-wordpress:main
+    restart: always
+    ports:
+      - 127.0.0.1:8080:80
+    volumes:
+      - ./wordpress:/var/www/html
